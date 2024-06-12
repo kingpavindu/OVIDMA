@@ -1,0 +1,18 @@
+.row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.topic_facilities{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.row{
+    background-color: var(--clr-navy-light);
+    padding: 30px 10px;
+    border-radius: 20px;
+}
