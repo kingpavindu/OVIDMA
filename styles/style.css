@@ -18,7 +18,7 @@ body {
     --clr-maroon: #A0153E;
     --clr-navy: #000b1b;
     --clr-purple: #5D0E41;
-    --clr-light: white;
+    --clr-light: rgb(232, 249, 255);
     --clr-navy-light: #001029;
 
     --size-xxs: 0.5rem;
