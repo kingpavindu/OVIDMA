@@ -37,3 +37,10 @@ body {
     --size-9xl: 8rem;
     --size-10xl: 10rem;
 }
+
+svg {
+    display: block;
+    max-width: 100%;
+    user-select: none;
+  }
+  
