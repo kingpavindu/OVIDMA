@@ -33,12 +33,30 @@ h1{
     color: var(--clr-light);
 }
 
+button{
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: auto;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    background-color: var(--clr-red);
+    cursor: pointer;
+    color: var(--clr-light);
+    margin: 15px 0;
+}
+
+
+
 /* xs */
 /* @media (min-width: 475px) {} */
 
 /* sm */
 /* @media (min-width: 640px) {} */
-
+button:hover{
+    background-color: var(--clr-light);
+    color: var(--clr-navy);
+}
 /* md */
 /* @media (min-width: 768px) {} */
 
