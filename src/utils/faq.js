@@ -37,7 +37,7 @@ const faqSec = () => {
   });
   
   // Use innerHTML to append to the existing content
-  document.querySelector('main').innerHTML += faqsHTML;
+  document.querySelector('.faq_main').innerHTML += faqsHTML;
   console.log(faqsHTML);
   };
   
