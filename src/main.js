@@ -7,14 +7,8 @@ import '../styles/main/mobile-nav.css'
 import '../styles/main/subjects.css'
 import '../styles/utils.css'
 
-
-
-  
-  
 import mobileNav from './utils/mobile-nav';
-import mobileNav from './utils/faq';
-// import imageslider from './utils/image-slider';
+import faqSec from './utils/faq';
 
 mobileNav();
 faqSec();
-// imageslider();
