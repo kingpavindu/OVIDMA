@@ -12,7 +12,9 @@ import '../styles/utils.css'
   
   
 import mobileNav from './utils/mobile-nav';
+import mobileNav from './utils/faq';
 // import imageslider from './utils/image-slider';
 
 mobileNav();
+faqSec();
 // imageslider();
