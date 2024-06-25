@@ -1,5 +1,5 @@
 // Add FAQs in down here by adding or deleting objects and editing there content.
-const mobileNav = () => {
+const faqSec = () => {
   let faqs = [{
     title: 'How many programmers does it take to change a light bulb?',
     body: 'None, that is a hardware problem.'
@@ -41,4 +41,4 @@ const mobileNav = () => {
   console.log(faqsHTML);
   };
   
-  export default mobileNav;
+  export default faqSec;
