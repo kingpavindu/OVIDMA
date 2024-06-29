@@ -13,13 +13,15 @@
 }
 
 .rows{
-    background-color: var(--clr-navy-light);
     padding: 30px 10px;
     border-radius: 20px;
 }
 
 .row{
-    margin-top: 50px;
+    margin-top: 20px;
+    background-color: var(--clr-navy-light);
+    padding: 20px;
+    border-radius: 20px;
 }
 
 .images{
@@ -37,4 +39,42 @@
 .row h1{
     margin: 20px 0;
     font-size: 35px;
+}
+
+@media (min-width: 1024px) {
+    .images{
+        
+        width: 500px;
+        height: 270px;
+    }
+
+    .images img{
+        height: 270px;
+        width: 500px;
+    }
+
+    .row{
+        display: block;
+        justify-content: unset;
+        justify-content: unset;
+        align-items: unset;
+        text-align: unset;
+        padding: 20px;
+    }
+
+    .row_type_1{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .row_type_2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .row_items{
+        width: 400px;
+        margin: 0 30px;
+    }
 }
