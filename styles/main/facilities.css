@@ -29,6 +29,7 @@
     width: 350px;
     overflow: hidden;
     border-radius: 20px;
+    order: -1;
 }
 
 .images img{
@@ -41,11 +42,19 @@
     font-size: 35px;
 }
 
+.row_type_2{
+    display: flex;
+
+}
+
 @media (min-width: 1024px) {
     .images{
-        
         width: 500px;
         height: 270px;
+    }
+
+    .row_type_2 .images{
+        order: 1;
     }
 
     .images img{
