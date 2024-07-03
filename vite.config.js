@@ -6,9 +6,9 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'), 
-        faqHtml: resolve(__dirname, 'faq.html'), 
-        faqJs: resolve(__dirname, 'mainFaq.js'), 
+        faqHtml: resolve(__dirname, 'faq.html
         mainJs: resolve(__dirname, 'main.js'), 
+        mainFaqJs: resolve(__dirname, 'mainFaq.js'), 
       },
     },
   },
