@@ -8,6 +8,7 @@ export default defineConfig({
         main: resolve(__dirname, 'index.html'), 
         faqHtml: resolve(__dirname, 'faq.html'), 
         faqJs: resolve(__dirname, 'mainFaq.js'), 
+        mainJs: resolve(__dirname, 'main.js'), 
       },
     },
   },
