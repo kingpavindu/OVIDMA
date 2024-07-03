@@ -7,8 +7,8 @@ export default defineConfig({
       input: {
         main: join(__dirname, 'index.html'), 
         faqHtml: join(__dirname, 'faq.html'),
-        mainJs: join(__dirname, 'main.js'), 
-        mainFaqJs: join(__dirname, 'mainFaq.js'), 
+        mainJs: join(__dirname, './src/main.js'), 
+        mainFaqJs: join(__dirname, './src/mainFaq.js'), 
       },
     },
   },
