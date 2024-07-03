@@ -8,7 +8,7 @@ import '../styles/main/subjects.css';
 import '../styles/utils.css';
 
 import mobileNav from './utils/mobile-nav.js';
-import subjects from './utils/subjects.js';
+// import subjects from './utils/subjects.js';
 
 mobileNav();
-subjects();
+// subjects();
