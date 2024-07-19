@@ -43,6 +43,24 @@
     border-radius: 10px;
 }
 
+.contact_sec_1 h1 i {
+    margin-right: 15px; 
+  }
+
 #messege{
     height: 150px;
+}
+
+@media (min-width: 1024px) {
+    .contact_boxes{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-right: 60px;
+    }
+
+    .contact_sec_2 textarea{
+        width: 500px;
+    }
+
 }

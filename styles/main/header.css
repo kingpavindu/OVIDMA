@@ -22,8 +22,12 @@
   }
 
 .landing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     text-align: center;
-    margin-top: 170px; 
+    flex-direction: column;
 }
 
 .landing_text_main h1{

@@ -26,7 +26,7 @@
     position: absolute;
     top: 40%;
     color: white;
-    background-color: transparent;
+    background-color: var(--clr-red);
     border: none;
     font-size: xx-large;
     font-family: monospace;
