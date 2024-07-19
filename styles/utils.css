@@ -47,16 +47,16 @@ button{
 }
 
 
+button:hover{
+    background-color: var(--clr-light);
+    color: var(--clr-navy);
+}
 
 /* xs */
 /* @media (min-width: 475px) {} */
 
 /* sm */
 /* @media (min-width: 640px) {} */
-button:hover{
-    background-color: var(--clr-light);
-    color: var(--clr-navy);
-}
 /* md */
 /* @media (min-width: 768px) {} */
 
