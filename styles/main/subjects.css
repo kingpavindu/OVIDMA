@@ -96,5 +96,5 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#000B1B", en
 }
 
 #secret_image{
-    /* display: none; */
+    display: none;
 }
