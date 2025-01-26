@@ -94,3 +94,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#000B1B", en
 .box2 p{
     margin-top: 10px;
 }
+
+#secret_image{
+    /* display: none; */
+}
